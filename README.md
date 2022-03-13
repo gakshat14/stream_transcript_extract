@@ -1,2 +1,3 @@
-# stream_transcript_extract
-Allowing users to extract transcript from Microsoft Stream
+# Microsoft Stream Transcript Extractor
+
+Allowing users to extract transcript from Microsoft Stream.
