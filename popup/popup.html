@@ -12,11 +12,13 @@
             background-color: darkgray;
             color: black;
         }
+
         img {
             height: 300px;
             display: block;
             margin-top: 5px;
         }
+
         iframe {
             margin-top: 10px;
         }
@@ -25,7 +27,7 @@
 
 <body>
     <article>
-        <h1>Stream Extractor</h1>
+        <h1>Stream/MediaSite Transcript Extractor</h1>
         <section>
             <h2>Introduction</h2>
             <p>
@@ -39,6 +41,7 @@
                 extracts all the transcripts and presents them to you in a way that you can easily copy and paste them
                 wherever you want them.
             </p>
+            <p style="font-weight: bold;">I have also added support for MediaSite.</p>
         </section>
         <section>
             <h2>Directions</h2>
@@ -50,13 +53,16 @@
                 </li>
                 <li>After this, you should see a welcome screen and an extract button.<img src="./image2.png"
                         alt="extract and welcome screen"></li>
-                <li>Before clicking on the extract button and without closing the developer tools, reload the page.</li>
+                <li>Before clicking on the extract button and without closing the developer tools, reload the page.
+                    <span style="font-weight: bold;">Note:</span> this step is not required for MediaSite videos.
+                    Instead, just play the video before clicking on extract button.</li>
                 <li>Now click on the extract button and if the extension is able to find the transcript, it will be
                     shown in the box below.<img src="./image3.png" alt=""></li>
             </ol>
         </section>
         I know that sometimes it can be a pain to open the developer tools, but this was the only way that I could
         extract the text.
+        <br />
         <br />
         <span style="font-weight: bold;">If you are sure that the transcript is present for that video, please reload
             the page with StreCript open and then click Extract.</span>
