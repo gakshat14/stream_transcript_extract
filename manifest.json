@@ -1,6 +1,6 @@
 {
     "name": "Stream Transcript Extractor",
-    "description": "Extension to allow users to extract transcript from Micsoroft Stream website.",
+    "description": "Extension to allow users to extract transcript from MSFT Stream and MediaSite.",
     "version": "2.0",
     "manifest_version": 3,
     "devtools_page": "devtools.html",
