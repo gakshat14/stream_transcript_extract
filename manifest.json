@@ -1,7 +1,7 @@
 {
     "name": "Stream Transcript Extractor",
-    "description": "Extension to allow users to extract transcript from MSFT Stream and MediaSite.",
-    "version": "2.0",
+    "description": "Extension to allow users to extract transcript from MSFT Stream and MediaSite(Re/Play).",
+    "version": "2.1",
     "manifest_version": 3,
     "devtools_page": "devtools.html",
     "action": {
